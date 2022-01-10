@@ -130,7 +130,7 @@ STATICFILES_DIRS = (
     os.path.join(CORE_DIR, 'apps/static'),
 )
 # This should already be in your settings.py
-#django_heroku.settings(locals())
+django_heroku.settings(locals())
 # This is new
 ##options = DATABASES['default'].get('OPTIONS', {})
 #options.pop('sslmode', None)
